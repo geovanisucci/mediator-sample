@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediatorSample.Domain.Core\MediatorSample.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>
